@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Pottery Website</title>
+
+  <link rel="stylesheet" href="services.css">
+   <link rel="stylesheet" href="practice.css">
+   <link rel="stylesheet" href="nav.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+
+  <nav class="navbar">
+
+    <div class="logo">
+      <img src="images/logo.png" alt="pottery-logo">
+    </div>
+
+    <ul class="nav-links">
+
+      <li class="dropdown">
+
+        <a href="index.html">Home ▾</a>
+
+        <div class="dropdown-menu">
+          <a href="home1.html">Home 1</a>
+          <a href="home2.html">Home 2</a>
+        </div>
+
+      </li>
+
+      <li><a href="about.html">About</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="pricing.html">Pricing</a></li>
+      <li><a href="blog.html">Blog</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="dashboard.html">Dashboard</a></li>
+
+         <li class="mobile-login-wrap">
+<a href="login.html" class="mobile-login">Login</a>
+</li>
+
+    </ul>
+
+    <div class="nav-buttons">
+
+      <button class="btn" onclick="enableRTL()">RTL</button>
+       <button class="logo-btn" type="button">
+      <div class="moon"></div>
+    </button>
+
+
+   <button class="btn login-btn" onclick="openLoginPage()">
+    Login
+</button>
+
+    </div>
+
+     <div class="menu-btn" id="menuBtn">
+        ☰
+    </div>
+
+  </nav>
+
+  <section class="hero-section">
+
+  <div class="overlay"></div>
+
+  <div class="hero-content">
+
+    <span class="mini-title">
+      Handmade Pottery & Ceramic Studio
+    </span>
+
+    <h1>
+      Crafting Timeless <br>
+      Ceramic Experiences
+    </h1>
+
+    <p>
+      Discover beautifully handcrafted pottery,
+      artistic ceramic creations, and immersive
+      studio experiences inspired by creativity,
+      tradition, and timeless craftsmanship.
+    </p>
+
+    <div class="hero-buttons">
+
+      <a href="#" class="primary-btn">
+        Explore Services
+      </a>
+
+      <a href="#" class="secondary-btn">
+        Book Workshop
+      </a>
+
+    </div>
+
+  </div>
+
+</section>
+
+<section class="services-section">
+
+  <div class="services-container">
+
+    <!-- Section Heading -->
+
+    <div class="section-header">
+
+      <span>Our Services</span>
+
+      <h2>
+        Crafted Experiences <br>
+        In Pottery & Ceramics
+      </h2>
+
+      <p>
+        From handcrafted pottery to immersive ceramic workshops,
+        we create artistic experiences that blend creativity,
+        craftsmanship, and timeless design.
+      </p>
+
+    </div>
+
+    <div class="services-grid">
+
+      <div class="service-card">
+
+        <div class="service-image">
+          <img src="images/discover3.jpg"
+               alt="Handmade Pottery">
+        </div>
+
+        <div class="service-content">
+
+          <div class="service-number">01</div>
+
+          <h3>Handmade Pottery</h3>
+
+          <p>
+            Beautiful handcrafted pottery pieces designed
+            with precision, creativity, and timeless artistry.
+          </p>
+
+          <a href="#">
+            Discover More
+          </a>
+
+        </div>
+
+      </div>
+
+
+      <div class="service-card">
+
+        <div class="service-image">
+          <img src="images/discover1.jpg"
+               alt="Ceramic Workshops">
+        </div>
+
+        <div class="service-content">
+
+          <div class="service-number">02</div>
+
+          <h3>Ceramic Workshops</h3>
+
+          <p>
+            Interactive pottery sessions crafted for beginners,
+            artists, and creative enthusiasts.
+          </p>
+
+          <a href="#">
+            Discover More
+          </a>
+
+        </div>
+
+      </div>
+
+
+      <div class="service-card">
+
+        <div class="service-image">
+          <img src="images/discover2.jpg"
+               alt="Custom Ceramic Art">
+        </div>
+
+        <div class="service-content">
+
+          <div class="service-number">03</div>
+
+          <h3>Custom Ceramic Art</h3>
+
+          <p>
+            Personalized ceramic creations designed
+            to reflect your unique artistic vision.
+          </p>
+
+          <a href="#">
+            Discover More
+          </a>
+
+        </div>
+
+      </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+<section class="process-section">
+
+  <div class="process-container">
+
+    <div class="section-header">
+
+      <span>Our Process</span>
+
+      <h2>
+        From Clay To <br>
+        Timeless Art
+      </h2>
+
+      <p>
+        Every ceramic creation goes through a thoughtful
+        artistic journey crafted with patience,
+        creativity, and precision.
+      </p>
+
+    </div>
+
+    <div class="process-grid">
+
+
+      <div class="process-card">
+
+
+        <div class="process-image">
+          <img src="images/process1" alt="Design Idea">
+        </div>
+
+        <div class="process-content">
+
+          <h3>Design & Inspiration</h3>
+
+          <p>
+            Every piece begins with a creative vision,
+            inspired by nature, textures, and timeless artistry.
+          </p>
+
+        </div>
+
+      </div>
+
+
+      <div class="process-card">
+
+        <div class="process-image">
+          <img src="images/process2"alt="Clay Crafting">
+        </div>
+
+        <div class="process-content">
+
+          <h3>Clay Crafting</h3>
+
+          <p>
+            Premium clay is shaped by hand with
+            precision, balance, and artistic detail.
+          </p>
+
+        </div>
+
+      </div>
+
+
+      <div class="process-card">
+
+        <div class="process-image">
+          <img src="images/process3.jpg"
+               alt="Firing Process">
+        </div>
+
+        <div class="process-content">
+
+          <h3>Firing & Finishing</h3>
+
+          <p>
+            Each ceramic piece is kiln-fired and carefully
+            finished to achieve durability and elegance.
+          </p>
+
+        </div>
+
+      </div>
+
+      <div class="process-card">
+
+
+        <div class="process-image">
+          <img src="images/process4.jpg"
+               alt="Final Artwork">
+        </div>
+
+        <div class="process-content">
+
+          <h3>Final Artwork</h3>
+
+          <p>
+            The final masterpiece is refined,
+            packaged beautifully, and ready to inspire.
+          </p>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+<section class="testimonial-section">
+
+  <div class="testimonial-container">
+
+    <div class="section-header">
+
+      <span>Testimonials</span>
+
+      <h2>
+        What Our Clients <br>
+        Say About Us
+      </h2>
+
+      <p>
+        Every ceramic piece carries a story,
+        and every experience leaves a lasting impression.
+      </p>
+
+    </div>
+
+    <div class="testimonial-grid">
+
+      <div class="testimonial-card">
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-chat-right-quote-fill" viewBox="0 0 16 16">
+  <path d="M16 2a2 2 0 0 0-2-2H2a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h9.586a1 1 0 0 1 .707.293l2.853 2.853a.5.5 0 0 0 .854-.353zM7.194 4.766q.13.188.227.401c.428.948.393 2.377-.942 3.706a.446.446 0 0 1-.612.01.405.405 0 0 1-.011-.59c.419-.416.672-.831.809-1.22-.269.165-.588.26-.93.26C4.775 7.333 4 6.587 4 5.667S4.776 4 5.734 4c.271 0 .528.06.756.166l.008.004c.169.07.327.182.469.324q.128.125.227.272M11 7.073c-.269.165-.588.26-.93.26-.958 0-1.735-.746-1.735-1.666S9.112 4 10.069 4c.271 0 .528.06.756.166l.008.004c.17.07.327.182.469.324q.128.125.227.272.131.188.228.401c.428.948.392 2.377-.942 3.706a.446.446 0 0 1-.613.01.405.405 0 0 1-.011-.59c.42-.416.672-.831.81-1.22z"/>
+</svg>
+
+        <p class="testimonial-text">
+          The workshop experience was absolutely beautiful.
+          The environment felt calm, creative, and inspiring.
+          I loved every moment of creating my own pottery.
+        </p>
+
+        <div class="client-info">
+
+          <img src="https://randomuser.me/api/portraits/women/44.jpg"
+               alt="Client">
+
+          <div>
+            <h4>Emily Carter</h4>
+            <span>Workshop Participant</span>
+          </div>
+
+        </div>
+
+      </div>
+
+
+      <div class="testimonial-card">
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-chat-right-quote-fill" viewBox="0 0 16 16">
+  <path d="M16 2a2 2 0 0 0-2-2H2a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h9.586a1 1 0 0 1 .707.293l2.853 2.853a.5.5 0 0 0 .854-.353zM7.194 4.766q.13.188.227.401c.428.948.393 2.377-.942 3.706a.446.446 0 0 1-.612.01.405.405 0 0 1-.011-.59c.419-.416.672-.831.809-1.22-.269.165-.588.26-.93.26C4.775 7.333 4 6.587 4 5.667S4.776 4 5.734 4c.271 0 .528.06.756.166l.008.004c.169.07.327.182.469.324q.128.125.227.272M11 7.073c-.269.165-.588.26-.93.26-.958 0-1.735-.746-1.735-1.666S9.112 4 10.069 4c.271 0 .528.06.756.166l.008.004c.17.07.327.182.469.324q.128.125.227.272.131.188.228.401c.428.948.392 2.377-.942 3.706a.446.446 0 0 1-.613.01.405.405 0 0 1-.011-.59c.42-.416.672-.831.81-1.22z"/>
+</svg>
+
+        <p class="testimonial-text">
+          Their handmade ceramics are truly unique.
+          Every piece feels premium, artistic,
+          and crafted with incredible attention to detail.
+        </p>
+
+        <div class="client-info">
+
+          <img src="https://randomuser.me/api/portraits/men/32.jpg"
+               alt="Client">
+
+          <div>
+            <h4>Daniel Brooks</h4>
+            <span>Art Collector</span>
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="testimonial-card">
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-chat-right-quote-fill" viewBox="0 0 16 16">
+  <path d="M16 2a2 2 0 0 0-2-2H2a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h9.586a1 1 0 0 1 .707.293l2.853 2.853a.5.5 0 0 0 .854-.353zM7.194 4.766q.13.188.227.401c.428.948.393 2.377-.942 3.706a.446.446 0 0 1-.612.01.405.405 0 0 1-.011-.59c.419-.416.672-.831.809-1.22-.269.165-.588.26-.93.26C4.775 7.333 4 6.587 4 5.667S4.776 4 5.734 4c.271 0 .528.06.756.166l.008.004c.169.07.327.182.469.324q.128.125.227.272M11 7.073c-.269.165-.588.26-.93.26-.958 0-1.735-.746-1.735-1.666S9.112 4 10.069 4c.271 0 .528.06.756.166l.008.004c.17.07.327.182.469.324q.128.125.227.272.131.188.228.401c.428.948.392 2.377-.942 3.706a.446.446 0 0 1-.613.01.405.405 0 0 1-.011-.59c.42-.416.672-.831.81-1.22z"/>
+</svg>
+
+        <p class="testimonial-text">
+          From custom ceramic designs to the studio atmosphere,
+          everything exceeded my expectations.
+          Highly recommended for art lovers.
+        </p>
+
+        <div class="client-info">
+
+          <img src="https://randomuser.me/api/portraits/women/68.jpg"
+               alt="Client">
+
+          <div>
+            <h4>Sophia Miller</h4>
+            <span>Interior Designer</span>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+<section class="cta-section">
+
+  <div class="cta-container">
+
+
+    <div class="cta-shape"></div>
+
+
+    <div class="cta-content">
+
+      <span>Let’s Create Together</span>
+
+      <h2>
+        Bring Your Ceramic <br>
+        Ideas To Life
+      </h2>
+
+      <p>
+        Whether you're looking for handcrafted pottery,
+        custom ceramic creations, or immersive workshops,
+        our studio is ready to craft something truly special with you.
+      </p>
+
+      <div class="cta-buttons">
+
+        <a href="#" class="primary-btn">
+          Book A Workshop
+        </a>
+
+        <a href="#" class="secondary-btn">
+          Contact Us
+        </a>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+  
+               <footer class="craft-footer">
+
+    <div class="footer-container">
+
+
+        <div class="footer-box">
+
+            <div class="footer-logo">
+                <img src="images/logo.png" alt="logo">
+                <h2>ClayCraft</h2>
+            </div>
+
+            <p>
+                Handmade pottery and ceramic creations crafted
+                with creativity, passion, and tradition.
+            </p>
+
+        </div>
+
+        <div class="footer-box">
+
+            <h3>Quick Links</h3>
+
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Gallery</a></li>
+            </ul>
+
+        </div>
+
+        <div class="footer-box">
+
+            <h3>Workshops</h3>
+
+            <ul>
+                <li><a href="#">Pottery Classes</a></li>
+                <li><a href="#">Ceramic Art</a></li>
+                <li><a href="#">Clay Modeling</a></li>
+                <li><a href="#">Custom Design</a></li>
+            </ul>
+
+        </div>
+
+
+        <div class="footer-box">
+
+            <h3>Contact Info</h3>
+
+            <p>Email : pottery@gmail.com</p>
+            <p>Phone : +91 98765 43210</p>
+            <p>Location : Hyderabad, India</p>
+
+        </div>
+
+    </div>
+
+
+    <div class="footer-last">
+
+        <p>
+            © 2026 ClayCraft. All Rights Reserved.
+        </p>
+
+        <div class="footer-policy-links">
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+        </div>
+
+    </div>
+
+</footer>
+
+  </body>
+
+  </html>

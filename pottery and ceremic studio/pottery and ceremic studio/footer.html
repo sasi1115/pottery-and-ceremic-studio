@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+.footer{
+    width:92%;
+    padding:20px 5%;
+    background:#1a0f0a;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    flex-wrap:wrap;
+}
+
+.copyright{
+    color:#ccc;
+    font-size:14px;
+}
+
+.footer-links{
+    display:flex;
+    gap:15px;
+    flex-wrap:wrap;
+    justify-content:center;
+}
+
+.footer-links a{
+    text-decoration:none;
+    color:#d4a373;
+    font-size:14px;
+    transition:0.3s;
+    white-space:nowrap;
+}
+
+.footer-links a:hover{
+    color:#fff;
+}
+
+
+/* Mobile Responsive */
+@media(max-width:768px){
+
+    .footer{
+        flex-direction:column;
+        gap:10px;
+        text-align:center;
+    }
+
+    .footer-links{
+        gap:10px;
+    }
+
+}
+
+</style>
+
+    
+
+<footer class="footer">
+
+    <p class="copyright">
+        © 2026 WineBar. All Rights Reserved.
+    </p>
+
+    <div class="footer-links">
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms & Conditions</a>
+    </div>
+
+</footer>
+</body>
+</html>

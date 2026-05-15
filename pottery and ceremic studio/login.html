@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Pottery Studio Login</title>
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    width:100%;
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:#1d120d;
+    padding:15px;
+}
+
+.auth-card{
+    width:340px;
+    background:#111;
+    border:1px solid #8b5e3c;
+    border-radius:20px;
+    padding:22px;
+    color:#fff;
+}
+
+.top-icons{
+    display:flex;
+    justify-content:flex-end;
+    gap:8px;
+    margin-bottom:15px;
+}
+
+.top-icons button{
+    width:40px;
+    height:40px;
+    border-radius:50%;
+    border:1px solid #8b5e3c;
+    background:#222;
+    color:#fff;
+    cursor:pointer;
+}
+
+.logo{
+    text-align:center;
+    margin-bottom:22px;
+}
+
+.logo img{
+    width:170px;
+    cursor:pointer;
+}
+
+.logo p{
+    margin-top:12px;
+    font-size:24px;
+    font-weight:bold;
+}
+
+.input-box{
+    margin-bottom:15px;
+}
+
+.input-box label{
+    display:block;
+    margin-bottom:7px;
+    font-size:13px;
+    color:#ccc;
+    font-weight:bold;
+}
+
+.input-field{
+    width:100%;
+    height:48px;
+    background:#222;
+    border:1px solid #8b5e3c;
+    border-radius:12px;
+    display:flex;
+    align-items:center;
+    padding:0 15px;
+}
+
+.input-field input{
+    width:100%;
+    height:100%;
+    border:none;
+    outline:none;
+    background:none;
+    color:#fff;
+    padding:0 12px;
+}
+
+.input-field i{
+    color:#aaa;
+}
+
+.options{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:18px;
+}
+
+.options label{
+    font-size:13px;
+    color:#ccc;
+}
+
+.options a{
+    color:#d8a16b;
+    text-decoration:none;
+    font-size:13px;
+}
+
+.auth-btn{
+    width:100%;
+    height:48px;
+    border:none;
+    border-radius:12px;
+    background:#c48a5a;
+    color:#fff;
+    font-size:15px;
+    font-weight:bold;
+    cursor:pointer;
+}
+
+.divider{
+    text-align:center;
+    margin:22px 0;
+    position:relative;
+    color:#aaa;
+    font-size:13px;
+}
+
+.divider::before,
+.divider::after{
+    content:"";
+    position:absolute;
+    top:50%;
+    width:30%;
+    height:1px;
+    background:#555;
+}
+
+.divider::before{
+    left:0;
+}
+
+.divider::after{
+    right:0;
+}
+
+.social-login{
+    display:flex;
+    flex-direction:column;
+    gap:12px;
+}
+
+.social-btn{
+    width:100%;
+    height:46px;
+    border-radius:10px;
+    border:1px solid #8b5e3c;
+    background:#222;
+    color:#fff;
+    cursor:pointer;
+}
+
+.bottom-text{
+    text-align:center;
+    margin-top:22px;
+    color:#ccc;
+    font-size:14px;
+}
+
+.bottom-text a{
+    color:#d8a16b;
+    text-decoration:none;
+}
+/* LIGHT MODE */
+
+.light-mode{
+    background:#f5ede3;
+}
+
+.light-mode .auth-card{
+    background:#fff;
+    color:#111;
+    border:1px solid #c48a5a;
+}
+
+.light-mode .input-field{
+    background:#f1f1f1;
+}
+
+.light-mode .input-field input{
+    color:#111;
+}
+
+.light-mode .input-box label,
+.light-mode .options label,
+.light-mode .bottom-text{
+    color:#444;
+}
+
+.light-mode .social-btn,
+.light-mode .top-icons button{
+    background:#f1f1f1;
+    color:#111;
+}
+
+
+/* RTL MODE */
+
+.rtl{
+    direction:rtl;
+}
+
+.rtl .options{
+    flex-direction:row-reverse;
+}
+
+.rtl .input-field input{
+    text-align:right;
+}
+
+/* LOGO SECTION SPACE REDUCE */
+
+.logo{
+    text-align:center;
+    margin-bottom:10px;
+    margin-top:-10px;
+}
+
+.logo img{
+    width:140px;
+    display:block;
+    margin:auto;
+}
+
+.logo p{
+    margin-top:6px;
+    font-size:21px;
+    font-weight:bold;
+}
+
+/* FIRST INPUT TOP SPACE REMOVE */
+
+.input-box{
+    margin-top:0;
+    margin-bottom:12px;
+}
+</style>
+</head>
+
+<body>
+
+<div class="auth-card">
+
+    <div class="top-icons">
+        <button>RTL</button>
+
+        <button>
+            <i class="fa-solid fa-moon"></i>
+        </button>
+    </div>
+
+    <div class="logo">
+
+        <a href="index.html">
+            <img src="images/logo.png" alt="logo">
+        </a>
+
+
+    </div>
+
+    <div class="input-box">
+
+        <label>EMAIL ADDRESS</label>
+
+        <div class="input-field">
+
+            <i class="fa-solid fa-envelope"></i>
+
+            <input type="email"
+            placeholder="Enter your email">
+
+        </div>
+
+    </div>
+
+    <div class="input-box">
+
+        <label>PASSWORD</label>
+
+        <div class="input-field">
+
+            <i class="fa-solid fa-lock"></i>
+
+            <input type="password"
+            placeholder="Enter your password">
+
+            <i class="fa-solid fa-eye"></i>
+
+        </div>
+
+    </div>
+
+    <div class="options">
+
+        <label>
+            <input type="checkbox">
+            Remember Me
+        </label>
+
+        <a href="#">Forgot Password?</a>
+
+    </div>
+
+    <button class="auth-btn">
+        LOGIN
+    </button>
+
+    <div class="divider">
+        OR CONTINUE WITH
+    </div>
+
+    <div class="social-login">
+
+        <button class="social-btn">
+            <i class="fa-brands fa-apple"></i>
+            Continue with Apple
+        </button>
+
+        <button class="social-btn">
+            <i class="fa-brands fa-android"></i>
+            Continue with Android
+        </button>
+
+    </div>
+
+    <div class="bottom-text">
+
+        New User?
+
+        <a href="signup.html">
+            Create Account
+        </a>
+
+    </div>
+
+</div>
+
+<script>
+
+    const themeBtn = document.querySelector(".top-icons button:last-child");
+const body = document.body;
+
+themeBtn.onclick = () => {
+
+    body.classList.toggle("light-mode");
+
+};
+
+
+/* RTL MODE */
+
+const rtlBtn = document.querySelector(".top-icons button:first-child");
+
+rtlBtn.onclick = () => {
+
+    document.body.classList.toggle("rtl");
+
+};
+</script>
+
+</body>
+</html>

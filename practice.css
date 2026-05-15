@@ -1,0 +1,180 @@
+*{
+  transition: background-color 0.35s ease, color 0.35s ease, border-color 0.35s ease;
+}
+ 
+ 
+html.dark-mode body{
+  background:#000 ;
+  color:#f8efe7;
+}
+ 
+html.dark-mode .navbar{
+  background:#1c120c ;
+  box-shadow:0 8px 25px rgba(0,0,0,0.45);
+}
+ 
+html.dark-mode .nav-links{
+  background:transparent ;
+}
+ 
+html.dark-mode .nav-links li a{
+  color:#fff ;
+}
+ 
+html.dark-mode .nav-links li a:hover{
+  color:#d8ab7c ;
+}
+ 
+html.dark-mode .dropdown-menu{
+  background:#2a1a13 ;
+}
+ 
+html.dark-mode .dropdown-menu a{
+  color:#fff ;
+}
+ 
+html.dark-mode .dropdown-menu a:hover{
+  background:#3a2418 ;
+}
+ 
+html.dark-mode .btn,
+html.dark-mode .logo-btn{
+  background:#d8ab7c ;
+  color:#fff ;
+}
+ 
+ 
+html.dark-mode section{
+    background-color:#000 ;
+}
+ 
+html.dark-mode .craft-footer{
+  background:#1c120c ;
+}
+ 
+ 
+html.dark-mode .pricing-card,
+html.dark-mode .benefit-card,
+html.dark-mode .class-card,
+html.dark-mode .reward-card,
+html.dark-mode .featured-card,
+html.dark-mode .blog-card,
+html.dark-mode .ceramic-card,
+html.dark-mode .contact-container,
+html.dark-mode .contact-form,
+html.dark-mode .location-card,
+html.dark-mode .support-card,
+html.dark-mode .service-card,
+html.dark-mode .story-content,
+html.dark-mode .team-card,
+html.dark-mode .team-info,
+html.dark-mode .choose-card{
+  background:#1c120c ;
+  border-color:rgba(255,255,255,0.12) ;
+}
+ 
+ 
+html.dark-mode h1,
+html.dark-mode h2,
+html.dark-mode h3,
+html.dark-mode h4{
+  color:#f2c38f ;
+}
+ 
+ 
+html.dark-mode p,
+html.dark-mode span,
+html.dark-mode li,
+html.dark-mode td,
+html.dark-mode .section-title p,
+html.dark-mode .benefits-title p,
+html.dark-mode .comparison-title p,
+html.dark-mode .blog-meta,
+html.dark-mode .author span{
+  color:#eadbd0 ;
+}
+ 
+ 
+html.dark-mode input,
+html.dark-mode textarea{
+  background:#1c120c ;
+  color:#fff ;
+  border-color:rgba(255,255,255,0.18) ;
+}
+ 
+html.dark-mode input::placeholder,
+html.dark-mode textarea::placeholder{
+  color:#cdb9aa ;
+}
+ 
+ 
+html.dark-mode .comparison-table{
+  background:#2a1a13 ;
+}
+ 
+html.dark-mode tbody tr{
+  border-color:rgba(255,255,255,0.12) ;
+}
+ 
+html.dark-mode tbody tr:hover{
+  background:#24170f ;
+}
+ 
+ 
+.navbar .login-btn{
+  padding:12px 24px ;
+  font-size:14px ;
+  border-radius:12px ;
+  border:none ;
+  background:#d8ab7c ;
+  color:#fff ;
+  font-weight:600 ;
+}
+ 
+ 
+html.rtl{
+  direction:rtl;
+}
+ 
+html.rtl .navbar,
+html.rtl .nav-links,
+html.rtl .nav-buttons,
+html.rtl .hero-buttons,
+html.rtl .footer-last,
+html.rtl .author-box,
+html.rtl .blog-footer,
+html.rtl .card-bottom,
+html.rtl .newsletter-section,
+html.rtl .reward-buttons{
+  flex-direction:row-reverse ;
+}
+ 
+html.rtl .logo{
+  order:3;
+}
+ 
+html.rtl .nav-links{
+  order:2;
+}
+ 
+html.rtl .nav-buttons{
+  order:1;
+}
+ 
+html.rtl .dropdown-menu{
+  left:auto ;
+  right:0 ;
+  text-align:right;
+}
+ 
+html.rtl .category-tag,
+html.rtl .blog-tag,
+html.rtl .popular-badge{
+  left:auto ;
+  right:20px ;
+}
+ 
+html.rtl .location-card{
+  left:auto ;
+  right:40px ;
+}

@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Pottery Website</title>
+
+  <link rel="stylesheet" href="contact.css">
+   <link rel="stylesheet" href="practice.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+ 
+  <nav class="navbar">
+
+    <div class="logo">
+      <img src="images/logo.png" alt="pottery-logo">
+    </div>
+
+    <ul class="nav-links">
+
+      <li class="dropdown">
+
+        <a href="index.html">Home ▾</a>
+
+        <div class="dropdown-menu">
+          <a href="home1.html">Home 1</a>
+          <a href="home2.html">Home 2</a>
+        </div>
+
+      </li>
+
+      <li><a href="about.html">About</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="pricing.html">Pricing</a></li>
+      <li><a href="blog.html">Blog</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="dashboard.html">Dashboard</a></li>
+
+    </ul>
+
+    <div class="nav-buttons">
+
+      <button class="btn" onclick="enableRTL()">RTL</button>
+       <button class="logo-btn" type="button">
+      <div class="moon"></div>
+    </button>
+
+
+   <button class="btn login-btn" onclick="openLoginPage()">
+    Login
+</button>
+
+    </div>
+
+     <div class="menu-btn" id="menuBtn">
+        ☰
+    </div>
+
+  </nav>
+
+<section class="contact-hero">
+
+    <div class="hero-overlay"></div>
+
+    <div class="hero-content">
+
+        <h1>Contact Our Pottery Studio</h1>
+
+        <p>
+            Have questions about pottery workshops, ceramic collections,
+            or custom handmade creations? We’d love to hear from you.
+        </p>
+
+        <a href="#contact" class="hero-btn">
+            Get In Touch
+        </a>
+
+    </div>
+
+</section>
+
+
+<section class="contact-section">
+
+    <div class="contact-container">
+
+        <!-- Left Side -->
+
+        <div class="contact-info">
+
+            <h2>Get In Touch</h2>
+
+            <p>
+                We'd love to hear from you! Whether you want to join our
+                pottery workshops, explore handcrafted ceramic collections,
+                or ask about custom creations, our studio is here to help.
+            </p>
+
+            <div class="info-box">
+                <h4>Studio Address</h4>
+                <span>123 Clay Street, Ceramic Town</span>
+            </div>
+
+            <div class="info-box">
+                <h4>Email</h4>
+                <span>hello@potterystudio.com</span>
+            </div>
+
+            <div class="info-box">
+                <h4>Phone</h4>
+                <span>+91 98765 43210</span>
+            </div>
+
+            <div class="info-box">
+                <h4>Working Hours</h4>
+                <span>Mon - Sat : 9:00 AM - 7:00 PM</span>
+            </div>
+
+        </div>
+
+
+        <!-- Right Side -->
+
+        <div class="contact-form">
+
+            <h2>Contact Us</h2>
+
+            <form>
+
+                <input type="text" placeholder="Your Name">
+
+                <input type="email" placeholder="Your Email">
+
+                <input type="text" placeholder="Subject">
+
+                <textarea placeholder="Write Your Message"></textarea>
+
+                <button type="submit">
+                    Send Message
+                </button>
+
+            </form>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ================= LOCATION SECTION ================= -->
+
+<section class="location-section">
+
+    <div class="location-heading">
+
+        <h2>
+            Find <span>Our Location</span>
+        </h2>
+
+        <p>
+            Visit our pottery studio or get directions to reach us
+        </p>
+
+    </div>
+
+
+    <!-- Map -->
+
+    <div class="map-container">
+
+        <iframe
+            src="https://www.google.com/maps?q=Vijayawada&output=embed"
+            width="100%"
+            height="550"
+            style="border:0;"
+            allowfullscreen=""
+            loading="lazy">
+        </iframe>
+
+
+        <!-- Location Card -->
+
+        <div class="location-card">
+
+            <h3>Visit Our Office</h3>
+
+            <h4>Pottery & Ceramic Studio</h4>
+
+            <p>
+                MG Road, Vijayawada, Andhra Pradesh
+            </p>
+
+            <a href="https://www.google.com/maps/place/Vijayawada/"
+               target="_blank">
+
+               Get Directions →
+
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ================= SUPPORT SECTION ================= -->
+
+<section class="support-section">
+
+    <div class="section-title">
+
+        <span>— POTTERY SUPPORT —</span>
+
+        <h2>
+            Other Ways to Get
+            <span>Support</span>
+        </h2>
+
+    </div>
+
+
+    <div class="support-container">
+
+        <!-- Card 1 -->
+
+        <div class="support-card">
+
+            <div class="icon-box">
+
+                <!-- Pottery Icon -->
+
+                <svg xmlns="http://www.w3.org/2000/svg"
+                     width="40"
+                     height="40"
+                     fill="#4e8b45"
+                     viewBox="0 0 24 24">
+
+                    <path d="M12 2c-2 0-4 1.5-4 4 0 1.4.7 2.6 1.8 3.3C7.7 10 6 12 6 14.5 6 18 8.7 21 12 21s6-3 6-6.5c0-2.5-1.7-4.5-3.8-5.2C15.3 8.6 16 7.4 16 6c0-2.5-2-4-4-4z"/>
+
+                </svg>
+
+            </div>
+
+            <h3>Pottery Workshops</h3>
+
+            <p>
+                Join hands-on pottery workshops and
+                learn ceramic crafting from expert artisans.
+            </p>
+
+            <a href="#">
+                Explore Workshops →
+            </a>
+
+        </div>
+
+
+        <!-- Card 2 -->
+
+        <div class="support-card">
+
+            <div class="icon-box purple">
+
+                <!-- Ceramic Cup Icon -->
+
+                <svg xmlns="http://www.w3.org/2000/svg"
+                     width="40"
+                     height="40"
+                     fill="#8c6bc7"
+                     viewBox="0 0 24 24">
+
+                    <path d="M18 8h-1V6a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v7a5 5 0 0 0 5 5h5a5 5 0 0 0 5-5v-1h1a3 3 0 0 0 0-6zm0 4h-1V8h1a1 1 0 0 1 0 4z"/>
+
+                </svg>
+
+            </div>
+
+            <h3>Ceramic Collection</h3>
+
+            <p>
+                Discover handcrafted ceramic mugs,
+                bowls, vases, and unique décor pieces.
+            </p>
+
+            <a href="#">
+                View Collection →
+            </a>
+
+        </div>
+
+
+        <!-- Card 3 -->
+
+        <div class="support-card">
+
+            <div class="icon-box blue">
+
+                <!-- Community Icon -->
+
+                <svg xmlns="http://www.w3.org/2000/svg"
+                     width="40"
+                     height="40"
+                     fill="#5c6bc0"
+                     viewBox="0 0 24 24">
+
+                    <path d="M16 11c1.7 0 3-1.3 3-3s-1.3-3-3-3-3 1.3-3 3 1.3 3 3 3zm-8 0c1.7 0 3-1.3 3-3S9.7 5 8 5 5 6.3 5 8s1.3 3 3 3zm0 2c-2.7 0-8 1.3-8 4v2h16v-2c0-2.7-5.3-4-8-4zm8 0c-.3 0-.7 0-1 .1 1.3 1 2 2.3 2 3.9v2h7v-2c0-2.7-5.3-4-8-4z"/>
+
+                </svg>
+
+            </div>
+
+            <h3>Artist Community</h3>
+
+            <p>
+                Connect with pottery artists, share ideas,
+                and explore creative ceramic inspirations.
+            </p>
+
+            <a href="#">
+                Join Community →
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+<footer class="craft-footer">
+
+    <div class="footer-container">
+
+        <!-- Section 1 -->
+
+        <div class="footer-box">
+
+            <div class="footer-logo">
+                <img src="images/logo.png" alt="logo">
+                <h2>ClayCraft</h2>
+            </div>
+
+            <p>
+                Handmade pottery and ceramic creations crafted
+                with creativity, passion, and tradition.
+            </p>
+
+        </div>
+
+        <div class="footer-box">
+
+            <h3>Quick Links</h3>
+
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Gallery</a></li>
+            </ul>
+
+        </div>
+
+
+        <!-- Section 3 -->
+
+        <div class="footer-box">
+
+            <h3>Workshops</h3>
+
+            <ul>
+                <li><a href="#">Pottery Classes</a></li>
+                <li><a href="#">Ceramic Art</a></li>
+                <li><a href="#">Clay Modeling</a></li>
+                <li><a href="#">Custom Design</a></li>
+            </ul>
+
+        </div>
+
+
+        <div class="footer-box">
+
+            <h3>Contact Info</h3>
+
+            <p>Email : pottery@gmail.com</p>
+            <p>Phone : +91 98765 43210</p>
+            <p>Location : Hyderabad, India</p>
+
+        </div>
+
+    </div>
+
+
+    <div class="footer-last">
+
+        <p>
+            © 2026 ClayCraft. All Rights Reserved.
+        </p>
+
+        <div class="footer-policy-links">
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+        </div>
+
+    </div>
+
+</footer>
+</body>
+</html>

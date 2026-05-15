@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Pottery Website</title>
+
+  <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="practice.css">
+    <link rel="stylesheet" href="nav.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+  <nav class="navbar">
+
+    <div class="logo">
+      <img src="images/logo.png" alt="pottery-logo">
+    </div>
+
+    <ul class="nav-links">
+
+      <li class="dropdown">
+
+        <a href="index.html">Home ▾</a>
+
+        <div class="dropdown-menu">
+          <a href="home1.html">Home 1</a>
+          <a href="home2.html">Home 2</a>
+        </div>
+
+      </li>
+
+      <li><a href="about.html">About</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="pricing.html">Pricing</a></li>
+      <li><a href="blog.html">Blog</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="dashboard.html">Dashboard</a></li>
+
+         <li class="mobile-login-wrap">
+<a href="login.html" class="mobile-login">Login</a>
+</li>
+
+    </ul>
+
+    <div class="nav-buttons">
+
+      <button class="btn" onclick="enableRTL()">RTL</button>
+       <button class="logo-btn" type="button">
+      <div class="moon"></div>
+    </button>
+
+
+   <button class="btn login-btn" onclick="openLoginPage()">
+    Login
+</button>
+
+    </div>
+
+     <div class="menu-btn" id="menuBtn">
+        ☰
+    </div>
+
+  </nav>
+
+  <section class="about-hero">
+
+  
+  <div class="overlay"></div>
+
+
+  <div class="hero-content">
+
+    <p class="sub-title">
+      ABOUT OUR STUDIO
+    </p>
+
+    <h1>
+      Crafting Beautiful <br>
+      Pottery With Passion <br>
+      & Creativity
+    </h1>
+
+    <p class="description">
+      Discover handcrafted ceramic experiences,
+      artistic workshops, and timeless pottery
+      creations made with love and creativity.
+    </p>
+
+    <div class="hero-buttons">
+
+      <button class="primary-btn">
+        Explore Workshops
+      </button>
+
+
+    </div>
+
+  </div>
+
+</section>
+
+<section class="services-section">
+
+  <div class="container">
+
+    <h2>What We Do</h2>
+
+    <p class="section-subtitle">
+      We create visuals that connect, inspire, and leave a lasting impression.
+    </p>
+
+    <div class="services-grid">
+
+      <div class="service-card">
+        <h3>Photography</h3>
+        <p>
+          Capturing timeless moments with creativity,
+          emotion, and cinematic storytelling.
+        </p>
+      </div>
+
+      <div class="service-card">
+        <h3>Videography</h3>
+        <p>
+          Creating high-quality videos that bring
+          stories and brands to life.
+        </p>
+      </div>
+
+      <div class="service-card">
+        <h3>Editing</h3>
+        <p>
+          Professional editing with clean visuals,
+          smooth transitions, and modern style.
+        </p>
+      </div>
+
+      <div class="service-card">
+        <h3>Branding</h3>
+        <p>
+          Building strong and creative brand identities
+          that stand out everywhere.
+        </p>
+      </div>
+
+    </div>
+
+  </div>
+  </section>
+
+  <section class="our-story">
+
+  <div class="story-container">
+
+    <div class="story-content">
+      <h2>Our Story</h2>
+
+      <p>
+        Our studio started with a simple vision —
+        to create meaningful visuals that inspire,
+        connect, and leave a lasting impact.
+      </p>
+
+      <p>
+        What began as a passion for creativity slowly
+        turned into a full creative journey driven by
+        dedication, innovation, and storytelling.
+      </p>
+
+      <p>
+        From small projects to building powerful visual
+        experiences, every step helped us grow into
+        a studio that values quality, originality,
+        and emotion.
+      </p>
+
+      <p class="highlight">
+        We don’t just create content —
+        we create experiences people remember.
+      </p>
+    </div>
+
+  </div>
+
+</section>
+
+<section class="team-section">
+
+  <div class="team-container">
+
+    <div class="section-title">
+      <h2>Meet Our Team</h2>
+      <p>
+        The creative minds behind every visual, story, and experience.
+      </p>
+    </div>
+
+    <div class="team-grid">
+
+      <!-- Team Member -->
+
+      <div class="team-card">
+        <img src="images/potterysection1.jpg" alt="Team Member">
+
+        <div class="team-info">
+          <h3>Rahul Kumar</h3>
+          <span>Creative Director</span>
+
+          <p>
+            Turning ideas into cinematic visuals with creativity and passion.
+          </p>
+        </div>
+      </div>
+
+      <!-- Team Member -->
+
+      <div class="team-card">
+        <img src="images/potterysection3.jpg" alt="Team Member">
+
+        <div class="team-info">
+          <h3>Arjun Varma</h3>
+          <span>Photographer</span>
+
+          <p>
+            Capturing timeless moments through artistic photography.
+          </p>
+        </div>
+      </div>
+
+
+      <div class="team-card">
+        <img src="images/potterysection2.jpg" alt="Team Member">
+
+        <div class="team-info">
+          <h3>Sneha Reddy</h3>
+          <span>Video Editor</span>
+
+          <p>
+            Creating smooth, modern, and engaging visual experiences.
+          </p>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+<section class="choose-us">
+
+  <div class="choose-container">
+
+    <div class="section-header">
+      <h2>Why Choose Us</h2>
+
+      <p>
+        Crafted with passion, shaped by creativity,
+        and inspired by timeless ceramic artistry.
+      </p>
+    </div>
+
+    <div class="choose-grid">
+
+      <!-- Card -->
+
+      <div class="choose-card">
+        <h3>Handcrafted Excellence</h3>
+
+        <p>
+          Every ceramic piece is carefully handmade
+          with attention to detail and artistic precision.
+        </p>
+      </div>
+
+      <!-- Card -->
+
+      <div class="choose-card">
+        <h3>Unique Designs</h3>
+
+        <p>
+          We create original pottery and ceramic designs
+          that blend tradition with modern aesthetics.
+        </p>
+      </div>
+
+      <!-- Card -->
+
+      <div class="choose-card">
+        <h3>Natural Materials</h3>
+
+        <p>
+          Using quality clay and eco-friendly materials
+          to craft sustainable and timeless creations.
+        </p>
+      </div>
+
+      <!-- Card -->
+
+      <div class="choose-card">
+        <h3>Made With Passion</h3>
+
+        <p>
+          Every creation reflects dedication,
+          creativity, and love for ceramic artistry.
+        </p>
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+   <footer class="craft-footer">
+
+    <div class="footer-container">
+
+        <!-- Section 1 -->
+
+        <div class="footer-box">
+
+            <div class="footer-logo">
+                <img src="images/logo.png" alt="logo">
+                <h2>ClayCraft</h2>
+            </div>
+
+            <p>
+                Handmade pottery and ceramic creations crafted
+                with creativity, passion, and tradition.
+            </p>
+
+        </div>
+
+        <div class="footer-box">
+
+            <h3>Quick Links</h3>
+
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Gallery</a></li>
+            </ul>
+
+        </div>
+
+
+        <!-- Section 3 -->
+
+        <div class="footer-box">
+
+            <h3>Workshops</h3>
+
+            <ul>
+                <li><a href="#">Pottery Classes</a></li>
+                <li><a href="#">Ceramic Art</a></li>
+                <li><a href="#">Clay Modeling</a></li>
+                <li><a href="#">Custom Design</a></li>
+            </ul>
+
+        </div>
+
+
+        <div class="footer-box">
+
+            <h3>Contact Info</h3>
+
+            <p>Email : pottery@gmail.com</p>
+            <p>Phone : +91 98765 43210</p>
+            <p>Location : Hyderabad, India</p>
+
+        </div>
+
+    </div>
+
+
+    <div class="footer-last">
+
+        <p>
+            © 2026 ClayCraft. All Rights Reserved.
+        </p>
+
+        <div class="footer-policy-links">
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+        </div>
+
+    </div>
+
+</footer>
+
+  </body>
+  </html>

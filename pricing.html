@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Pottery Website</title>
+
+  <link rel="stylesheet" href="pricing.css">
+   <link rel="stylesheet" href="practice.css">
+   <link rel="stylesheet" href="nav.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+     <nav class="navbar">
+
+    <div class="logo">
+      <img src="images/logo.png" alt="pottery-logo">
+    </div>
+
+    <ul class="nav-links">
+
+      <li class="dropdown">
+
+        <a href="index.html">Home ▾</a>
+
+        <div class="dropdown-menu">
+          <a href="home1.html">Home 1</a>
+          <a href="home2.html">Home 2</a>
+        </div>
+
+      </li>
+
+      <li><a href="about.html">About</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="pricing.html">Pricing</a></li>
+      <li><a href="blog.html">Blog</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="dashboard.html">Dashboard</a></li>
+
+         <li class="mobile-login-wrap">
+<a href="login.html" class="mobile-login">Login</a>
+</li>
+
+    </ul>
+
+    <div class="nav-buttons">
+
+      <button class="btn" onclick="enableRTL()">RTL</button>
+       <button class="logo-btn" type="button">
+      <div class="moon"></div>
+    </button>
+
+
+   <button class="btn login-btn" onclick="openLoginPage()">
+    Login
+</button>
+
+    </div>
+
+     <div class="menu-btn" id="menuBtn">
+        ☰
+    </div>
+
+  </nav>
+
+ 
+
+   <section class="hero">
+
+    <div class="hero-content">
+
+
+      <div class="hero-tag">
+        Handcrafted Experiences • Pottery & Ceramics Studio
+      </div>
+
+
+      <h1>
+        Pricing Designed for <br>
+        Every Creative Journey
+      </h1>
+
+
+      <p>
+        From your first clay touch to mastering artisan techniques,
+        choose a studio plan that fits your rhythm and creativity.
+      </p>
+
+      <!-- BUTTONS -->
+
+      <div class="hero-buttons">
+
+        <button class="primary-btn"
+          onclick="window.location.href='contact.html'">
+          Book a Trial Class
+      </button>
+
+      </div>
+
+    </div>
+
+  </section>
+
+<section class="pricing-section">
+
+  <div class="section-title">
+    <h1>Choose Your Pottery Journey</h1>
+    <p>
+      Flexible ceramic studio memberships for beginners, hobby artists,
+      and professional potters.
+    </p>
+  </div>
+
+  <div class="pricing-container">
+
+    <div class="pricing-card">
+
+      <h2>Clay Beginner</h2>
+
+      <div class="price">
+        ₹1999 <span>/ month</span>
+      </div>
+
+      <ul>
+        <li>4 Studio Sessions</li>
+        <li>Basic Clay Materials</li>
+        <li>Community Kiln Access</li>
+        <li>Beginner Workshops</li>
+      </ul>
+
+      <button class="secondary-btn">
+        Get Started
+      </button>
+
+    </div>
+
+    <!-- CARD 2 POPULAR -->
+
+    <div class="pricing-card popular-card">
+
+      <div class="popular-badge">
+        Popular
+      </div>
+
+      <h2>Studio Artisan</h2>
+
+      <div class="price">
+        ₹4999 <span>/ month</span>
+      </div>
+
+      <ul>
+        <li>12 Studio Sessions</li>
+        <li>Premium Clay & Glazes</li>
+        <li>Priority Kiln Booking</li>
+        <li>Monthly Masterclass</li>
+      </ul>
+
+      <button class="primary-btn">
+        Join Now
+      </button>
+
+    </div>
+
+    <!-- CARD 3 -->
+
+    <div class="pricing-card">
+
+      <h2>Master Potter</h2>
+
+      <div class="price">
+        ₹8999 <span>/ month</span>
+      </div>
+
+      <ul>
+        <li>Unlimited Studio Access</li>
+        <li>Private Storage Shelf</li>
+        <li>Advanced Ceramic Firing</li>
+        <li>1-on-1 Mentor Support</li>
+      </ul>
+
+      <button class="secondary-btn">
+        Get Started
+      </button>
+
+    </div>
+
+  </div>
+
+  
+
+</section>
+
+<!-- ===== MEMBERSHIP BENEFITS SECTION ===== -->
+
+<section class="benefits-section">
+
+    <div class="benefits-title">
+
+        <span>Why Join Our Studio</span>
+
+        <h2>Membership Benefits</h2>
+
+        <p>
+            Experience a warm creative environment with premium pottery
+            tools, expert guidance, and artisan-focused workshops.
+        </p>
+
+    </div>
+
+    <div class="benefits-container">
+
+        <!-- CARD 1 -->
+
+        <div class="benefit-card">
+
+            <h3>Premium Clay Materials</h3>
+
+            <p>
+                High-quality clay and glazing materials included in all memberships.
+            </p>
+
+        </div>
+
+        <!-- CARD 2 -->
+
+        <div class="benefit-card">
+
+            <h3>Kiln Firing Access</h3>
+
+            <p>
+                Professional kiln firing facilities for all your ceramic creations.
+            </p>
+
+        </div>
+
+        <!-- CARD 3 -->
+
+        <div class="benefit-card">
+
+            <h3>Creative Workshops</h3>
+
+            <p>
+                Attend monthly pottery and ceramic workshops with expert artists.
+            </p>
+
+        </div>
+
+        <!-- CARD 4 -->
+
+        <div class="benefit-card">
+
+            <h3>Expert Mentorship</h3>
+
+            <p>
+                Learn advanced pottery techniques from experienced ceramic mentors.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ===== PACKAGE COMPARISON SECTION ===== -->
+
+<section class="comparison-section">
+
+    <div class="comparison-title">
+
+        <span>Compare Plans</span>
+
+        <h2>Package Comparison</h2>
+
+        <p>
+            Choose the pottery membership plan that best matches your
+            creative journey and studio needs.
+        </p>
+
+    </div>
+
+    <div class="comparison-table">
+
+        <table>
+
+            <thead>
+
+                <tr>
+                    <th>Features</th>
+                    <th>Clay Beginner</th>
+                    <th>Studio Artisan</th>
+                    <th>Master Potter</th>
+                </tr>
+
+            </thead>
+
+            <tbody>
+
+                <tr>
+                    <td>Studio Sessions</td>
+                    <td>4 / Month</td>
+                    <td>12 / Month</td>
+                    <td>Unlimited</td>
+                </tr>
+
+                <tr>
+                    <td>Clay Materials</td>
+                    <td>Basic</td>
+                    <td>Premium</td>
+                    <td>Premium+</td>
+                </tr>
+
+                <tr>
+                    <td>Kiln Access</td>
+                    <td>Shared</td>
+                    <td>Priority</td>
+                    <td>Private Access</td>
+                </tr>
+
+                <tr>
+                    <td>Workshops Included</td>
+                    <td>Basic Workshops</td>
+                    <td>Monthly Masterclass</td>
+                    <td>All Workshops</td>
+                </tr>
+
+                <tr>
+                    <td>Mentor Support</td>
+                    <td>—</td>
+                    <td>Limited</td>
+                    <td>1-on-1 Guidance</td>
+                </tr>
+
+                <tr>
+                    <td>Storage Shelf</td>
+                    <td>—</td>
+                    <td>Shared Shelf</td>
+                    <td>Private Shelf</td>
+                </tr>
+
+            </tbody>
+
+        </table>
+
+    </div>
+
+</section>
+
+<section class="rewards-section">
+
+    <!-- LEFT SIDE -->
+
+    <div class="rewards-left">
+
+        <span class="top-tag">
+            LOYALTY PROGRAMME
+        </span>
+
+        <h1>
+            Earn ClayPoints
+        </h1>
+
+        <p>
+            Every pottery class and workshop earns ClayPoints.
+            Redeem them for free studio sessions, ceramic tools,
+            and exclusive pottery rewards.
+        </p>
+
+        <!-- REWARD CARDS -->
+
+        <div class="reward-card">
+
+            <div class="reward-number">
+                3
+            </div>
+
+            <div class="reward-content">
+
+                <h3>Bronze Clay</h3>
+
+                <span>0–2,499 points</span>
+
+                <p>
+                    1 point per ₹10 spent • 5% studio discount
+                </p>
+
+            </div>
+
+        </div>
+
+        <div class="reward-card">
+
+            <div class="reward-number silver">
+                2
+            </div>
+
+            <div class="reward-content">
+
+                <h3>Silver Clay</h3>
+
+                <span>2,500–9,999 points</span>
+
+                <p>
+                    1.5 points per ₹10 • Priority workshop booking
+                </p>
+
+            </div>
+
+        </div>
+
+        <div class="reward-card">
+
+            <div class="reward-number gold">
+                1
+            </div>
+
+            <div class="reward-content">
+
+                <h3>Gold Clay</h3>
+
+                <span>10,000+ points</span>
+
+                <p>
+                    2 points per ₹10 • Free monthly pottery session
+                </p>
+
+            </div>
+
+        </div>
+
+        <!-- BUTTONS -->
+
+        <div class="reward-buttons">
+
+            <button class="join-btn">
+                Join & Start Earning
+            </button>
+
+            <button class="login-btn">
+                Already a member? Log in
+            </button>
+
+        </div>
+
+    </div>
+
+    <!-- RIGHT SIDE -->
+
+    <div class="rewards-right">
+
+        <div class="member-tag">
+            Gold Clay Member
+        </div>
+
+        <h2>12,480 pts</h2>
+
+        <p>Your ClayPoints balance</p>
+
+        <!-- PROGRESS BAR -->
+
+        <div class="progress-bar">
+
+            <div class="progress-fill"></div>
+
+        </div>
+
+        <span class="progress-text">
+            7,520 pts to Platinum Clay
+        </span>
+
+        <!-- STATS -->
+
+        <div class="stats-container">
+
+            <div class="stat-box">
+                <h3>24</h3>
+                <span>SESSIONS</span>
+            </div>
+
+            <div class="stat-box">
+                <h3>₹2,100</h3>
+                <span>TOTAL SAVED</span>
+            </div>
+
+            <div class="stat-box">
+                <h3>3</h3>
+                <span>FREE WORKSHOPS</span>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+  <footer class="craft-footer">
+
+    <div class="footer-container">
+
+        <!-- Section 1 -->
+
+        <div class="footer-box">
+
+            <div class="footer-logo">
+                <img src="images/logo.png" alt="logo">
+                <h2>ClayCraft</h2>
+            </div>
+
+            <p>
+                Handmade pottery and ceramic creations crafted
+                with creativity, passion, and tradition.
+            </p>
+
+        </div>
+
+        <div class="footer-box">
+
+            <h3>Quick Links</h3>
+
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Gallery</a></li>
+            </ul>
+
+        </div>
+
+
+        <!-- Section 3 -->
+
+        <div class="footer-box">
+
+            <h3>Workshops</h3>
+
+            <ul>
+                <li><a href="#">Pottery Classes</a></li>
+                <li><a href="#">Ceramic Art</a></li>
+                <li><a href="#">Clay Modeling</a></li>
+                <li><a href="#">Custom Design</a></li>
+            </ul>
+
+        </div>
+
+
+        <div class="footer-box">
+
+            <h3>Contact Info</h3>
+
+            <p>Email : pottery@gmail.com</p>
+            <p>Phone : +91 98765 43210</p>
+            <p>Location : Hyderabad, India</p>
+
+        </div>
+
+    </div>
+
+
+    <div class="footer-last">
+
+        <p>
+            © 2026 ClayCraft. All Rights Reserved.
+        </p>
+
+        <div class="footer-policy-links">
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+        </div>
+
+    </div>
+
+</footer>
+
+  </body>
+  </html>
